@@ -1,0 +1,106 @@
+main {
+  display: flex;
+}
+.sidebar {
+  width: 15%;
+  padding: 10px;
+  background-image: radial-gradient(rgba(234,231,230, 0.10),rgba(234,231,230, 0.50));
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text{
+  margin-top: 2em;
+}
+.sidebar h1 {
+  margin-left: 10px;
+  font-weight: bolder;
+  filter: drop-shadow(1px 0.5px 0.5px maroon);
+}
+.sidebar p a{
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.sidebar p a:hover {
+  margin-left: 30px;
+  font-size: 17px;
+  text-decoration: wavy;
+  color: maroon;
+}
+.main_content {
+  width: 85%; 
+}
+.p-0 {
+  background-image: linear-gradient(rgba(128,0,0, 0.80),rgba(139,0,0, 0.65));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 160em;
+  display:flex;
+  flex-direction: column; 
+  align-items: center;
+  color: white;
+}
+.p-0 img {
+  margin-top: 25px;
+  height: 25em;
+  width: 65em;
+  border-radius: 25px;
+  filter: drop-shadow(15px 9px 9px maroon);
+}
+.p-0 h1 {
+  font-size: 3rem;
+  padding: 0px;
+  text-align: center;
+  filter: drop-shadow(2px 1px 1px black);
+}
+.p-0 p{
+  margin-left: 50px;
+  margin-right: 25px;
+  padding: 0px;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.p-0 ul, li{ 
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 50px;
+  font-size: 20px;
+  margin-right: 25px;
+  padding: 0px;
+}
+.p-0 ol{ 
+  text-align: justify;
+  text-justify: inter-word;
+  margin-right: 24em;
+  font-size: 20px;
+  padding: 0px;
+}
+.p-0 li:hover{ 
+  color:black;
+}
+.p-1 {
+  background-image: linear-gradient(rgba(139,0,0, 0.65),rgba(128,0,0, 0.80));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 35em;
+  display:flex;
+  flex-direction: column; 
+  align-items: left;
+  color: white;
+}
+.p-1 h1 {
+  font-size: 3rem;
+  text-align: center;
+  filter: drop-shadow(2px 1px 1px black);
+}
+.p-1 li{
+  padding-left: 22em;
+  text-align: left;
+  font-size: 20px;
+}

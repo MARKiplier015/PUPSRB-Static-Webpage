@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: maroon;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    display: flex;
+    font-size: large;
+}
+.logo-container {
+    flex: 0 0 auto; 
+    padding-left: 50px; 
+}
+.logo {
+    width: 120px;
+    height: auto;
+    display: block;
+    border-radius: 50%; 
+    overflow: hidden; 
+    cursor: pointer;
+}
+.text-container {
+    flex: 1; 
+    text-align: left; 
+    padding-left: 20px; 
+}
+.navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden;
+    background-color: maroon;
+    font-family: Arial;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+.dropdown a{
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px 30px;
+  font-weight: bold;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #CCCC00;
+  color: black;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: maroon;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  filter: drop-shadow(2px 1px 1px #E1D9D1);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color:#CCCC00; 
+  border-radius: 3px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.lightbox {
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  position: fixed;
+  z-index: 1000;
+}
+
+.lightbox:target {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.lightbox img {
+  border-radius: 1em;
+  border: 5px solid maroon;
+  display: block;
+  margin: auto;
+  max-height: 80%;
+  max-width: 90%;
+}
+
+.lightbox .close {
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  height: 1em;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 1em;
+  z-index: 1001;
+  text-decoration: none;
+}
+.lightbox .close:hover {
+  color:maroon;
+}
+
+.lightbox p {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+footer {
+  background-color: maroon;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid #ddd;
+  font-size: 16px;
+}
+.footerlogo {
+  width: 250px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.row1 {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col {
+  flex-basis: 30%;
+  padding: 10px;
+}
+.socmed img{ 
+  height: 40px;
+  width: 40px;
+  font-size: 18px;
+  border-radius: 15%;
+  padding: 5px
+}
+.col h1 {
+  width: fit-content;
+  margin-bottom: 10px;
+  position: relative;
+}
+.col p{
+  width: fit-content;
+  margin-bottom: 0px;
+  text-align: justify;
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+.col a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.col a:hover {
+  color: gold;
+  cursor: pointer;
+  font-weight: bold;
+}
+.row2{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col1 {
+  flex-basis: 50%;
+}
+.col2 {
+  flex-basis: 50%;
+}
