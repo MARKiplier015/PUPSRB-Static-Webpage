@@ -1,5 +1,5 @@
 .p-0 {
-    background-image: linear-gradient(rgba(0,0, 0, 0.65),rgba(0, 0, 0, 0.65)),url("./sources/building.jpg");
+    background-image: linear-gradient(rgba(0,0, 0, 0.65),rgba(0, 0, 0, 0.65)),url("../sources/building.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -214,7 +214,7 @@
     filter: brightness(75%);
 }
 .p-3 {
-    background-image: linear-gradient(rgba(0,0, 0, 0.65),rgba(0, 0, 0, 0.65)),url("./sources/events.jpg");
+    background-image: linear-gradient(rgba(0,0, 0, 0.65),rgba(0, 0, 0, 0.65)),url("../sources/events.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
